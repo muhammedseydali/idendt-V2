@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/inter/interlight/Inter-Light.woff2') format('woff2'),
+         url('./assets/fonts/inter/interlight/Inter-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./assets/fonts/inter/interlight/Inter-Bold.woff2') format('woff2'),
+        url('./assets/fonts/inter/interlight/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('./assets/fonts/georgia/Georgia-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/georgia/Georgia-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Inter';
+}
+body {
+    background-color: #000;
+    color: #fff;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="text"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="button"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+blockquote {
+    quotes: none;
+}
+blockquote:after,
+blockquote:before {
+    content: "";
+    content: none;
+}
+del {
+    text-decoration: line-through;
+}
+address,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+input,
+select,
+textarea {
+    font-family: "Inter";
+}
+textarea {
+    outline: none;
+}
+textarea:focus {
+    border: 1px solid #0884df !important;
+}
+input:focus-visible {
+    outline-color: #0884df;
+    /* border: 1px solid #0884df !important; */
+}
+input.rec:focus-visible {
+    outline: none;
+}
+#captcha .rec {
+    border: none;
+}
+html {
+    overflow: scroll !important;
+    scroll-behavior: smooth !important;
+}
+html.modal-enabled {
+    overflow: hidden !important;
+}
+a {
+    text-decoration: none !important;
+}
+.submit:hover,
+a:hover {
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+}
+.thumb {
+    display: block;
+}
+.thumb img {
+    display: block;
+    width: 100%;
+}
+p {
+    line-height: 1.6em;
+    font-family: "Inter";
+}
